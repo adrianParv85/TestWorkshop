@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class test1 {
     public static void main(String[] args) {
            System.out.println("Hello World");
@@ -23,6 +25,16 @@ public class test1 {
     }
 
     public static void problema1() {
+
+        Scanner pr1Scanner = new Scanner(System.in);
+        System.out.println("Please insert an integer number:");
+        int number = pr1Scanner.nextInt();
+        if (number % 2 == 0) {
+            System.out.println("This number is an even number");
+
+        } else {
+            System.out.println("This number is an odd number");
+        }
 
     }
     public static void problema2() {
