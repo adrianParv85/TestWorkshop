@@ -4,8 +4,8 @@ public class test1 {
     public static void main(String[] args) {
            System.out.println("Hello World");
 
-           problema1();
-         //  problema2();
+          // problema1();
+           problema2();
         //   problema3();
         //   problema4();
         //   problema5();
@@ -38,6 +38,18 @@ public class test1 {
 
     }
     public static void problema2() {
+
+        Scanner pr2Scanner = new Scanner(System.in);
+        System.out.println("Please insert a number:");
+        int number = pr2Scanner.nextInt();
+        if (number < 0) {
+            System.out.println("This number is a negative number");
+        } else if (number > 0) {
+
+            System.out.println("This number is a positive number");
+        } else {
+            System.out.println("This number is 0");
+        }
 
     }
     public static void problema3() {
