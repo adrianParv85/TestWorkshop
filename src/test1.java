@@ -4,7 +4,7 @@ public class test1 {
     public static void main(String[] args) {
            System.out.println("Hello World");
 
-          // problema1();
+           problema1();
            problema2();
         //   problema3();
         //   problema4();
